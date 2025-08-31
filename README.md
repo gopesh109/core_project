@@ -46,7 +46,7 @@ These packages can be installed in two ways:
 1.  **From a Git repository (Production):**
     You can install them directly from a Git repository in your `requirements.txt`.
     ```
-    shared-models @ git+ssh://git@github.com/your_org/core_project.git@main#subdirectory=shared_models
+    shared-models @ git+ssh://git@github.com:<your-org>/<core-project-repo>.git@main#subdirectory=shared_models
     ```
 
 2.  **From a local directory (Development):**
